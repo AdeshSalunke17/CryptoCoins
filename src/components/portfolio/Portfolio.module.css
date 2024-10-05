@@ -1,0 +1,40 @@
+.main{
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.main h1{
+    font-size: 50px;
+}
+.mainImageDiv{
+    height: 350px;
+}
+@media(max-width:1124px){
+    .headingdiv h1{
+        font-size: 42px;
+    }
+}
+@media(max-width:992px){
+    .main {
+        padding-left: 4%;
+    padding-right: 4%;
+    }
+}
+@media(max-width:664px){
+    .headingdiv h1{
+        font-size: 28px;
+    }
+}
+@media(max-width:768px){
+    .mainImageDiv{
+        height: 250px;
+    }
+}
+@media(max-width:576px){
+    .headingdiv p{
+        font-size: 14px;
+    }
+    .mainImageDiv{
+        height: 200px;
+    }
+}

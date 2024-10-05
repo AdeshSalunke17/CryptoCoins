@@ -1,0 +1,25 @@
+.marketContentDiv {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.tableContainer {
+  min-height: 500px;
+}
+
+.tableContainer::-webkit-scrollbar {
+  width: 12px !important;
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  background-color: rgb(184, 0, 0) !important;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(219, 0, 0, 0.3) !important;
+  border-radius: 6px !important;
+}
+
+.tableContainer::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(226, 8, 8, 0.5) !important;
+}

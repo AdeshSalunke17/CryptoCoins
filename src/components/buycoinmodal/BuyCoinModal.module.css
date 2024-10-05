@@ -1,0 +1,4 @@
+.maxHieghtModal{
+    max-height: 80vh; /* Set the maximum height here */
+    overflow-y: auto; /* Enable vertical scrolling */
+}

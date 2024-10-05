@@ -1,0 +1,28 @@
+.mainNewsCardDiv{
+    width: 124px;
+    height: 168px;
+    border-radius: 16px ;
+    border: 1px solid transparent;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mainNewsCardDiv:hover{
+    -webkit-box-shadow: -1.5px 17.5px 32px -13.5px #dc9f50;
+-moz-box-shadow: -1.5px 17.5px 32px -13.5px #dc9f50;
+box-shadow: -1.5px 17.5px 32px -13.5px #dc9f50;
+/* border: 1px solid #dc9f50; */
+cursor: pointer;
+}
+.imgDiv{
+    width: 86%;
+    height: 50%;
+    /* background-color: aliceblue; */
+    border-radius: 50%;
+}
+.newsTitleDiv{
+    width: 100%;
+    height: 50%;
+    /* background-color: #dc9f50; */
+}

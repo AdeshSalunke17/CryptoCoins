@@ -1,0 +1,76 @@
+.main{
+    background-color: rgb(20, 20, 20);
+    height: 70px;
+}
+.portfolioButton{
+    background-color: rgb(43, 43, 43);
+    border: transparent;
+    border-radius: 11px;
+    color: white;
+    padding: 5px 9px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.portfolioButton:hover{
+    color: black;
+    background-color: #DD9A35;
+}
+.customButton{
+    background-color: transparent;
+    border: transparent;
+    border-radius: 11px;
+    color: white;
+    padding: 5px 9px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.customButton:hover{
+   color: #DD9A35;
+
+}
+.optionsDiv{
+    display: flex;
+}
+.menuDiv{
+    display: none;
+}
+.ref{
+    display: flex;
+ }
+ .minDiv{
+    display: none;
+ }
+@media (max-width: 991.98px) { 
+    .optionsDiv,.ref{
+        display: none;
+    }
+    .menuDiv{
+        display: block;
+    }
+ }
+ .loginText{
+    color: white; 
+    cursor: pointer; 
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .loginText:hover{
+    color: #ff9332;
+ }
+ .maxDiv{
+    display: flex;
+ }
+
+ @media(max-width:1124px){
+   .maxDiv{
+    display: none;
+   }
+   .minDiv{
+    display: flex;
+   }
+ }
+ .mobileDivLinksDiv{
+    background-color: rgb(26, 26, 26);
+ }
+ 

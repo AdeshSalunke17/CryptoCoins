@@ -1,0 +1,39 @@
+.coindetailsMain{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@media (max-width: 991.98px) { 
+    .coindetailsMain{
+        padding-left: 1%;
+    padding-right: 1%;
+    }
+ }
+li{
+    border: transparent;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.liColor{
+    background-color: black;
+}
+.buyButtonDiv2{
+  display: none;
+}
+@media(max-width:767.98px){
+  .buyButtonDiv{
+    display: none;
+  }
+  .buyButtonDiv2{
+    display: block;
+  }
+}
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

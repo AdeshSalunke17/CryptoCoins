@@ -1,0 +1,58 @@
+.main{
+    background: #332776;
+    background: -webkit-radial-gradient(circle, #332776 0%, #010000 50%, #000000 100%);
+    background: radial-gradient(circle, #332776 0%, #010000 50%, #000000 100%);
+    padding-bottom: 100px;
+
+}
+.headingDiv{
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 7%;
+}
+.headingDiv h1{
+    font-size: 46px;
+}
+@media (max-width: 767.98px) { 
+    .headingDiv{
+        padding-right: 0%;
+        padding-left: 0%;
+    } 
+    .headingDiv h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 991.98px) { 
+    .headingDiv{
+        padding-right: 5%;
+        padding-left: 5%;
+    } 
+}
+
+.newsDiv{
+    padding-right: 15%;
+        padding-left: 15%;
+}
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.coinTableDiv{
+    padding-right: 10%;
+        padding-left: 10%;
+}
+.seeMoreButton{
+    background: transparent;
+    color: white;
+    font-weight: 500;
+    border: 1px solid grey;
+    padding: 10px 70px;
+}
+.seeMoreButton:hover{
+    background-color: grey;
+}
