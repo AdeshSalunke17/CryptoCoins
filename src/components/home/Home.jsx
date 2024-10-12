@@ -1,9 +1,6 @@
 import React from "react";
 import NewsCard from "../news/newscard/NewsCard";
 import style from "./Home.module.css";
-import axios from "../../utility/httpRequest";
-import { useState } from "react";
-import { useEffect } from "react";
 import { TbLoader3 } from "react-icons/tb";
 import { BsCoin } from "react-icons/bs";
 import { MaterialReactTable } from "material-react-table";
@@ -25,6 +22,7 @@ const columns = [
         <img
           src={row.original.icon}
           style={{ height: "35px", width: "40px", borderRadius: "50%" }}
+          alt=""
         />
         <p style={{ fontSize: "20px", marginTop: "5px" }}>
           <span style={{ fontWeight: "600" }}>{row.original.name}</span>
@@ -108,7 +106,7 @@ const Home = () => {
     //   // throw new Error() 
     //   fetchInitialNews();
     // }, []);
-    const {isLoading:isNewsLoading, isError, data:newsData}=useGetInitialNewsQuery();
+    const {isLoading:isNewsLoading, data:newsData}=useGetInitialNewsQuery();
 
   // const [tableData, setTableData] = useState([]);
   // const [isTableDataLoading, setIsTableLoading] = useState(false);

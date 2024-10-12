@@ -18,7 +18,7 @@ const CoinDetailsPage = () => {
   const dispatch=useDispatch()
   useEffect(()=>{
     dispatch(addHistory(coin))
-  },[coin])
+  },[coin,dispatch])
   const [chartData, setChartData] = useState({
     period: "24h",
     data: [],
@@ -68,6 +68,7 @@ const CoinDetailsPage = () => {
               <img
                 src={coin.icon}
                 style={{ height: "45px", width: "50px", borderRadius: "50%" }}
+                alt=""
               />
               <p style={{ fontSize: "26px", marginTop: "5px" }}>
                 <span style={{ fontWeight: "600", color: "white" }}>

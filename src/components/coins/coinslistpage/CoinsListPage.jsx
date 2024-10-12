@@ -27,6 +27,7 @@ const columns = [
         <img
           src={row.original.icon}
           style={{ height: "35px", width: "40px", borderRadius: "50%" }}
+          alt=""
         />
         <p style={{ fontSize: "20px", marginTop: "5px" }}>
           <span style={{ fontWeight: "600" }}>{row.original.name}</span>

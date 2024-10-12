@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import img from "../../assets/cryptologo.png";
 
 import { motion } from "framer-motion";
 const left = {

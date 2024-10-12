@@ -28,7 +28,7 @@ const newsCardDiv = {
 };
 const NewsCard = ({ news }) => {
   return (
-    <a href={news.link} target="_blank" style={{ textDecoration: "none" }}>
+    <a href={news.link} target="_blank" style={{ textDecoration: "none" }} rel="noreferrer">
       <motion.div
         className={`${style.mainNewsCardDiv} pt-1`}
         variants={newsCardDiv}
@@ -39,7 +39,7 @@ const NewsCard = ({ news }) => {
         <div className={`${style.imgDiv}`}>
           <img
             src={news.imgUrl}
-            alt="news image"
+            alt=""
             style={{ width: "100%", height: "100%", borderRadius: "50%" }}
           />
         </div>

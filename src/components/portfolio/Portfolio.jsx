@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import style from "./Portfolio.module.css";
 import Slider1 from "./Slider1";

@@ -7,7 +7,7 @@ const BuyCoinModal = (props) => {
   useEffect(() => {
     let refSpendValue = spendValue / props.buyCoinDetails.price;
     setGetValue(refSpendValue.toFixed(8).replace(/(\.0+|0+)$/, ""));
-  }, [spendValue]);
+  }, [spendValue, props.buyCoinDetails.price]);
   return (
     <Modal
       {...props}
